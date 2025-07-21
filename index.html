@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>João Rafael - Biografia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: url('assets/bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: rgba(240, 240, 240, 0.95);
+      max-width: 420px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      padding: 30px 25px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-size: 1.8em;
+      font-weight: 600;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #8e2de2, #4a00e0, #42e695, #f9d423);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .badges {
+      margin-bottom: 15px;
+    }
+
+    .badges i {
+      font-size: 1.5em;
+      color: #5865f2;
+      margin: 0 6px;
+    }
+
+    .bio {
+      color: #333;
+      font-size: 1em;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 20px 15px;
+      }
+
+      .name {
+        font-size: 1.4em;
+      }
+
+      .avatar {
+        width: 90px;
+        height: 90px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="assets/avatar.jpg" alt="Avatar de João Rafael" class="avatar">
+    <div class="name">João Rafael</div>
+    <div class="badges">
+      <i class="fab fa-discord"></i>
+      <i class="fas fa-gem" title="Discord Nitro"></i>
+    </div>
+    <div class="bio">
+      ●•————————————————•●
+       ╰・🌿 Discord Developer
+       ╰・🇧🇷 Brazil
+       ╰・☕️ 11 Years
+       ╰ 🎮 My favorite games
+       ╰・🧨 Minecraft,FreeFire Between    outhers...
+    </div>
+  </div>
+</body>
+</html>
